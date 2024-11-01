@@ -1,0 +1,22 @@
+/* LWS Autocomplete Controls - Select */
+
+.lac-select-wrapper{position: relative;}
+.lac-select-combo{display:inline-flex;flex-direction: row;border:1px solid #ddd;background:#fff;height:28px;box-sizing: border-box;}
+.lac-select-input{border:none;flex:0 1 auto;background-color:transparent;position: relative;height:24px;}
+.lac-select-ddbutton{flex:0 0 auto;padding:6px 5px;color:#3fa9f5;background-color:transparent;cursor:pointer;}
+.lac-select-ddbutton:hover{background-color:#3fa9f5;color:#fff;}
+.lac-select-list{position:absolute;border:1px solid #ddd;background-color:#fff;
+    top:27px;min-width:180px;max-height:200px;overflow-y:auto;box-sizing:border-box;
+    padding:0;display:none;height:auto;z-index:300;
+}
+.lac-select-item{padding:5px;box-sizing: border-box;cursor:pointer;}
+.lac-select-item:hover{background-color:#3fa9f5;color:#fff;}
+.lac-highlighted, .lac-highlighted:hover{background-color:#015aa3;color:#fff;}
+.lac-select-error{position:absolute;border:1px solid #df2500;background-color:#fee;
+    top:28px; color: #600; padding:2px 10px;display:none;z-index:200;}
+
+/*temp*/
+.lws-country-line{display: flex;flex-direction: row;cursor:pointer;}
+.lws-country-flag{flex:0 0 30px;padding-right:5px;height:20px;}
+.lws-country-flag img{width:30px;height:20px;}
+.lws-country-name{line-height: 20px;height:20px;}

@@ -1,0 +1,187 @@
+/* Style Generator Styles
+names with - are for styling purpose only
+names with _ are used in the jQuery Widget
+*/
+
+/**********/
+/* EDITOR */
+/**********/
+
+.lwss-editor{min-height: 400px;display:flex;background:#fff;border:1px solid #ddd;border-radius: 4px;
+    position:relative;flex-direction: row;position:relative;top:30px;margin-bottom:30px;}
+.lwss-sidemenu{flex:1 0 content;background:#eee;border-right: 1px solid #ddd;display:flex;flex-direction: column;}
+.lwss-sidemenu-title{color:#fff;background:#555;padding:5px;border-radius: 4px 0 0 0;line-height:20px;}
+.lwss_info{background:#aaa;color:#fff;border-radius: 0 4px 0 0;line-height:20px;padding: 5px;}
+.lwss-main-conteneur{flex:1 1 auto;display:flex;flex-direction:row;min-height: 400px;position:relative;}
+.lwss-mc-row{flex:1 1 0px;}
+.lwss-mc-col{flex:1 1 0px;}
+.lwss-mc-mastercol{display:flex;flex-direction: column;flex:1 1 auto;}
+.lws-stygen-row-reset{margin-top:40px;text-align:left;}
+.lws-bg-switcher{position:absolute;right:10px;bottom:10px;width:44px;height:24px;background:#888;display: flex;flex-direction: row;padding:2px;box-sizing: border-box;border-radius: 4px;}
+.lws-white-switcher{height:20px;width:20px;flex:0 0 20px;background-color:#fff;cursor:pointer;border-radius:2px 0 0 2px;}
+.lws-black-switcher{height:20px;width:20px;flex:0 0 20px;background-color:#000;cursor:pointer;border-radius:0 2px 2px 0;}
+
+/* Main Canvas */
+.lwss_centraldiv{flex:1 1 auto;display:flex;flex-direction: column;position:relative;}
+.lwss-canvas{flex:1 1 0px;position:relative;padding:20px;}
+.lwss-popup-shadow{position:absolute;width:100%;height:100%;top:0;left:0;background-color:rgb(200,200,200,0.2);display:none;}
+
+/* Stylable Element */
+.lwss_selectable{position:relative;}
+
+/* Selector */
+.lwss_selector{position: absolute;border:1px solid transparent;cursor:pointer;
+    top:-2px;bottom:-2px;left:-2px;right:-2px;
+}
+.lwss_menu_selector{margin:5px 5px 0 5px;color:#fff;font-size:10px;line-height: 14px;cursor:pointer;
+    border-radius:2px; border:1px solid #aaa;display: flex;flex-direction: row;}
+.lwss_ms_title{background:#aaa;text-transform:uppercase;flex: 1 0 content;padding:2px 5px;border-radius:2px 0 0 2px}
+.lwss_ms_class{background:#fff;color:#666; flex: 1 0 auto;padding:2px 5px;border-radius:0 2px 2px 0;}
+
+/*****************/
+/* Styling Panel */
+/*****************/
+
+.lwss_styling_panel{display:none;flex:1 1 content;height:92px;}
+.lwss-sp-main{display:flex;flex-direction:row;position:relative;top:-30px;}
+
+/* Events */
+.lwss-sp-event{flex:0 1 30px;position:relative;}
+.lwss-sp-event-icon{color:white;width:100px;height:30px;display:block;cursor:pointer;background: #3fa9f5;font-size:20px;padding:5px;box-sizing:border-box;}
+.lwss-sp-event-icon span{height: 30px;position:relative;font-size:16px;font-family: "Gravity";left:10px;bottom:3px;color:#fff;}
+.lwss-sp-events-div{background:white;width:100px;height:92px;box-sizing:border-box;border:1px solid #3fa9f5;border-right: none;overflow:hidden;
+    display:block;cursor:pointer;}
+.lwss-sp-events{color:#666;height:30px;box-sizing:border-box;font-size:20px;padding:5px 4px;overflow:hidden;}
+.lwss-sp-events:hover{color:#3fa9f5;}
+.lwss-sp-events.active{background-color:#0562a5;color:white;}
+.lwss-sp-events::before{padding-right:10px;}
+.lwss-sp-events-label{font-family:"Gravity";text-transform:uppercase;font-size:12px;box-sizing: border-box;display: inline-flex;position:relative;bottom:4px;}
+/* Main Colors */
+.lwss-sp-color{flex:0 1 30px;position:relative;}
+.lwss-sp-color-selector{color:white;width:175px;height:30px;display:block;cursor:pointer;background: #ff931e;font-size:20px;padding:5px;box-sizing:border-box;}
+.lwss-sp-color-selector span{height: 30px;position:relative;font-size:16px;font-family: "Gravity";left:10px;bottom:3px;color:#fff;}
+.lwss-sp-colors-div{background:white;width:175px;height:92px;box-sizing:border-box;border:1px solid #ff931e;border-right:none;overflow:hidden;
+    display:flex;flex-direction: column;cursor:pointer;}
+
+/* Tabs Panel */
+.lwss-sp-tabs-panel{flex:1 1 auto;height:30px;display:flex;flex-direction: column;}
+.lwss-sp-tselectors{list-style:none;margin:0;padding:0;flex: 0 1 30px;}
+.lwss-sp-tselectors li{float:left;}
+.lwss_tselector{cursor: pointer;}
+.lwss-sp-tabs{flex: 0 1 92px;display:flex;flex-direction: row;}
+.lwss_sp_tab{display:flex;flex-direction:column;}
+.lwss-sp-tab-line{height:45px;width:100%;display:flex;flex-direction:row;}
+.lwss-sp-tselectors span{height: 30px;position:relative;font-size:16px;font-family: "Gravity";left:10px;bottom:3px;color:#fff;}
+
+.lwss-sp-tselectors-text{height: 30px;background: #d4145a; color:#fff;font-size:20px;padding:5px;box-sizing: border-box;margin:0;width:30px;overflow: hidden;}
+.lwss-sp-tabs-text{background: #fff; border: 1px solid #d4145a;height:92px;box-sizing: border-box;flex:1 1 auto;}
+.lwss-ttext-color{color:#d4145a;}
+.lwss-ttext-color:hover{color:#ff1d70;}
+
+.lwss-tborder-color{color:#93278f;}
+.lwss-tborder-color:hover{color:#c02bbb;}
+.lwss-tborder-color-icon{color:#93278f;font-size:20px;padding:0;display: block;position:relative;margin:1px 0 1px 0;}
+.lwss-sp-tselectors-border{height: 30px;background: #93278f; color:#fff;font-size:20px;padding:5px;box-sizing: border-box;margin:0;width:30px;overflow: hidden;}
+.lwss-sp-tabs-border{background: #fff; border: 1px solid #93278f;height:92px;box-sizing: border-box;flex:1 1 auto;display:flex;}
+
+.lwss-sp-tselectors-display{height: 30px;background: #7ac943; color:#fff;font-size:20px;padding:5px;box-sizing: border-box;margin:0;width:30px;overflow: hidden;}
+.lwss-sp-tabs-display{background: #fff; border: 1px solid #7ac943;height:92px;box-sizing: border-box;flex:1 1 auto;}
+.lwss-tdisplay-color{color:#7ac943;}
+
+
+/**************/
+/* CSS INPUTS */
+/**************/
+
+/* 4values */
+.lwss-4values-wrapper{height: 45px;box-sizing: border-box;display: inline-flex;flex-direction: row;position:relative;}
+.lwss-4values-shadow{width:100%;height:100%;position:absolute;top:0px;left:0;background:rgba(200,200,200,0.1);display:none;}
+.lwss-4values-left{flex: 0 1 auto;}
+.lwss-4values-right{flex: 0 1 auto;}
+.lwss-4values-icon{font-size:30px;padding:5px;}
+.lwss-4values-inputs{padding:5px;}
+.lwss-4values-label{text-align: center;font-size:10px;text-transform: uppercase;font-family: "Gravity";color:#999;position:relative;bottom:3px;}
+input.lwss-4values-input{display: inline-flex;width:50px;background:#dfdfdf;border:none !important;height:25px; font-family: "Gravity"; color:#666;
+    border-radius: 4px;margin:0 5px 0 0;position:relative;bottom: 1px;box-shadow: none;}
+input.lwss-4values-input:hover{border:none;box-shadow: none;}
+input.lwss-4values-input:focus{border:none;box-shadow: none;}
+
+/* select */
+.lwss-select-wrapper{height: 45px;box-sizing: border-box;display: inline-flex;flex-direction: row;position:relative;}
+.lwss-select-shadow{width:100%;height:100%;position:absolute;top:0px;left:0;background:rgba(200,200,200,0.1);display:none;}
+.lwss-select-left{flex: 0 1 auto;}
+.lwss-select-right{flex: 0 1 auto;}
+.lwss-select-icon{font-size:30px;padding:5px;}
+.lwss-select-input{padding:5px;}
+.lwss-select-label{text-align: center;font-size:10px;text-transform: uppercase;font-family: "Gravity";color:#999;position:relative;bottom:3px;}
+div.lwss-select-autocomplete{display: inline-flex;background:#dfdfdf;border:none !important;height:25px; font-family: "Gravity"; color:#666;
+    border-radius: 4px;margin:0 5px 0 0;position:relative;bottom: 1px;box-shadow: none;}
+div.lwss-select-autocomplete input{background:#dfdfdf;width:120px;}
+div.lwss-select-autocomplete a{padding-right:5px;}
+
+/* font selector */
+.lwss-fontselect-wrapper{height: 45px;box-sizing: border-box;display: inline-flex;flex-direction: row;position:relative;}
+.lwss-fontselect-shadow{width:100%;height:100%;position:absolute;top:0px;left:0;background:rgba(200,200,200,0.1);display:none;z-index:50;}
+.lwss-fontselect-left{flex: 0 1 auto;}
+.lwss-fontselect-right{flex: 0 1 auto;z-index:100;position:relative;}
+.lwss-fontselect-icon{font-size:30px;padding:5px;}
+.lwss-fontselect-group{display: inline-flex;background:#dfdfdf;border:none !important;height:25px;cursor: pointer;
+    font-family: "Gravity"; color:#666; flex-direction: row; width:210px;
+    border-radius: 4px;margin:5px;position:relative;bottom: 1px;box-shadow: none;}
+.lwss-fontselect-label{text-align: center;font-size:10px;text-transform: uppercase;
+    font-family: "Gravity";color:#999;position:absolute;bottom:0px;width:100%}
+.lwss-fontselect-input{flex:0 1 190px;box-sizing: border-box;line-height:25px;padding-left:5px;font-size:15px;}
+.lwss-fontselect-btn{flex:0 0 20px;line-height: 28px;}
+.lwss-fontselect-group .lwss-font-list{left:5px !important;}
+.lwss-fontselect-popup{position: absolute;top:30px;left:5px;width:422px;height:400px;background:#fff;z-index: 200;
+    border:1px solid #ccc;border-radius: 4px;display: flex;flex-direction: column;box-sizing: border-box;}
+.lwss-fontselect-tab-selectors{flex:0 0 30px;border-bottom:1px solid #ccc;box-sizing: border-box;font-size:18px;}
+.lwss-fontselect-tabs{flex:0 0 370px;}
+.lwss-fontselect-fav-selector{float:left;border-radius:4px 0 0 0;line-height:29px;height:29px;border-right: 1px solid #ccc;
+    width:140px;text-align:center;box-sizing: border-box;cursor:pointer;}
+.lwss-fontselect-tab{display: flex;flex-wrap: wrap;flex-direction: row;height:369px;overflow-y:scroll;align-content: flex-start;}
+.lwss-fontselect-std-selector{float:left;border-radius:0;line-height:29px;height:29px;border-right: 1px solid #ccc;
+        width:140px;text-align:center;box-sizing: border-box;cursor:pointer;}
+.lwss-fontselect-ggl-selector{float:left;border-radius:0 4px 0 0;line-height:29px;height:29px;
+            width:140px;text-align:center;cursor:pointer;}
+.lwss-fontselect-tab-selected{background: #d4145a;color:#fff;}
+
+
+/* font container */
+.lwss-fontselect-font-container{width:200px;height:60px;background:#f5f5f5;margin:1px 0 0 1px;position:relative;}
+.lwss-fontselect-font-title{font-size:19px;position:absolute;top:3px;left:5px;cursor:pointer;}
+.lwss-fontselect-font-cat{font-size:10px;position:absolute;top:28px;left:5px;color:#666;font-style: italic;}
+.lwss-fontselect-font-type{font-size:12px;position:absolute;top:42px;left:5px;color:#333;}
+.lwss-fontselect-variant-btn{width:80px;height:24px;border-radius:3px;background:#ddd;line-height:24px;cursor:pointer;
+    position:absolute;right:3px;bottom:3px;text-align: center;font-family: "Gravity"}
+.lwss-fontselect-variants{position:fixed;background-color:#ccc;z-index:216;color:#444;border-radius: 4px;}
+.lwss-fontselect-variantline{padding:3px 5px 3px 5px;line-height:28px;}
+
+
+/* size */
+.lwss-size-wrapper{height: 45px;box-sizing: border-box;display: inline-flex;flex-direction: row;position:relative;}
+.lwss-size-shadow{width:100%;height:100%;position:absolute;top:0px;left:0;background:rgba(200,200,200,0.1);display:none;}
+.lwss-size-left{flex: 0 1 auto;}
+.lwss-size-right{flex: 0 1 auto;}
+.lwss-size-icon{font-size:30px;padding:5px;}
+.lwss-size-inputs{margin:5px;}
+.lwss-size-label{text-align: center;font-size:10px;text-transform: uppercase;font-family: "Gravity";color:#999;position:relative;bottom:3px;}
+input.lwss-size-input{display: inline-flex;width:80px;background:#dfdfdf;border:none !important;height:25px; font-family: "Gravity"; color:#666;
+    border-radius: 4px;margin:0 5px 0 0;position:relative;bottom: 1px;box-shadow: none;}
+input.lwss-size-input:hover{border:none;box-shadow: none;}
+input.lwss-size-input:focus{border:none;box-shadow: none;}
+
+/* colorpicker */
+.lwss-colorpicker-wrapper{height: 45px;box-sizing: border-box;display: inline-flex;flex-direction: row;position:relative;}
+.lwss-colorpicker-shadow{width:100%;height:100%;position:absolute;top:0px;left:0;background:rgba(200,200,200,0.1);display:none;z-index:50;}
+.lwss-colorpicker-left{flex: 0 1 auto;width:40px;height:45px;cursor: pointer;z-index:100;}
+.lwss-colorpicker-right{flex: 0 1 auto;z-index:100;}
+.lwss-colorpicker-icon{font-size:30px;padding:5px 5px 2px 5px;}
+.lwss-colorpicker-default-color{color:#666666;}
+.lwss-colorpicker-demo{width:30px;height:7px;display:block;margin:0px 5px 0 5px;}
+.lwss-colorpicker-value{background:#dfdfdf;border:none !important;height:25px; font-family: "Gravity"; color:#666;width:120px;
+    border-radius: 4px;position:relative;bottom: 1px;padding:5px;box-sizing: border-box;margin:5px;}
+.lwss-colorpicker-label{text-align: center;font-size:10px;text-transform: uppercase;font-family: "Gravity";color:#999;position:relative;bottom:3px;}
+
+/* Misc */
+.lwss-active{display:block !important;}

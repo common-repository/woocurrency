@@ -1,0 +1,189 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCurrency\n"
+"POT-Creation-Date: 2018-06-21 15:50+0200\n"
+"PO-Revision-Date: 2018-06-21 15:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocurrency.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: include/admin.php:26
+msgid "WooCurrency"
+msgstr ""
+
+#: include/admin.php:30
+msgid "General Settings"
+msgstr ""
+
+#: include/admin.php:49
+msgid "IP Test"
+msgstr ""
+
+#: include/admin.php:54
+msgid "Tested IP"
+msgstr ""
+
+#: include/admin.php:59
+#, php-format
+msgid "Invalid value fallbacks to current IP detection. Your IP is %s"
+msgstr ""
+
+#: include/admin.php:64
+msgid "Test IP"
+msgstr ""
+
+#: include/admin.php:108
+msgid "Tested IP is"
+msgstr ""
+
+#: include/admin.php:109
+msgid "Country should be:"
+msgstr ""
+
+#: include/admin.php:110
+msgid "Country currency should be:"
+msgstr ""
+
+#: include/admin.php:111
+msgid "Selling currency will be:"
+msgstr ""
+
+#: include/admin.php:120
+msgid "Currency List"
+msgstr ""
+
+#: include/admin.php:121
+msgid "Assign currencies to one or multiple countries."
+msgstr ""
+
+#: include/admin.php:128
+msgid "Search..."
+msgstr ""
+
+#: include/currencylist.php:30 include/currencylist.php:125
+#: include/currencylist.php:237
+msgid "Currency"
+msgstr ""
+
+#: include/currencylist.php:31
+msgid "Countries"
+msgstr ""
+
+#: include/currencylist.php:43
+msgid "Select countries..."
+msgstr ""
+
+#: include/currencylist.php:56
+msgid "Price rounding"
+msgstr ""
+
+#: include/currencylist.php:57
+msgid "Decimal count"
+msgstr ""
+
+#: include/currencylist.php:124
+msgid "Symbol"
+msgstr ""
+
+#: include/currencylist.php:126
+msgid "Associated countries"
+msgstr ""
+
+#: include/currencylist.php:236
+msgid "Country"
+msgstr ""
+
+#: include/currencylist.php:238
+msgid "Rounding"
+msgstr ""
+
+#: include/currencylist.php:253
+#, php-format
+msgid "The currency [%s/%s] is already defined."
+msgstr ""
+
+#: include/currencylist.php:266
+#, php-format
+msgid "The country %s is already associated to %s."
+msgid_plural "The countries %s are already associated to %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/priceoverride.php:74
+msgid ""
+"An error occured with the requested currency. Please contact an "
+"administrator."
+msgstr ""
+
+#: woocurrency.php:82
+msgid "Settings"
+msgstr ""
+
+#: woocurrency.php:85
+msgid "Help"
+msgstr ""
+
+#: woocurrency.php:95
+msgid "Add Licence Key"
+msgstr ""
+
+#: woocurrency.php:104
+msgid "https://plugins.longwatchstudio.com/en/documentation-en/woocurrency/"
+msgstr ""
+
+#: woocurrency.php:109
+msgid "https://plugins.longwatchstudio.com/en/product/woocurrency-en/"
+msgstr ""
+
+#: woocurrency.php:173
+msgid "Install Required Plugins Dependencies"
+msgstr ""
+
+#: woocurrency.php:174
+msgid "Install Dependencies"
+msgstr ""
+
+#: woocurrency.php:176
+#, php-format
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocurrency.php:181
+#, php-format
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allow selling products in several currency."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr ""

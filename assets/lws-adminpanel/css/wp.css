@@ -1,0 +1,7 @@
+/* Override WP Standards */
+#wpbody-content{min-height: calc(100vh - 32px);display:flex;flex-direction:column;}
+#wpfooter{display:none;}
+.update-nag{display:none;}
+body{overflow:hidden;}
+#adminmenu{position:absolute;}
+

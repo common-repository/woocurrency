@@ -1,0 +1,1 @@
+jQuery(function(a){a(".lws-adminpanel-notice.lws-is-forgettable .notice-dismiss").click(function(){if(a(this).closest(".lws-adminpanel-notice").data("key")!=undefined){a.ajax({url:lws_ajax_url,data:{action:"lws_adminpanel_forget_notice",key:a(this).closest(".lws-adminpanel-notice").data("key")}})}})});
